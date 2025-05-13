@@ -1,0 +1,10 @@
+E:/schemotech/LAB4/lab4_2_vykh.v {1 {vlog -work work -nocovercells E:/schemotech/LAB4/lab4_2_vykh.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module f1
+-- Compiling module f2
+
+Top level modules:
+	f1
+	f2
+
+} {} {}}
