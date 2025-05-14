@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+dE:\schemotech\modelsim\modelsim_ase\examples
+vmux4to1_8bit
+IL2IJF=QAUFU[bZUeD5j]T3
+VPjLbelIQDlE4Cm_GP[EgR0
+Z0 dE:\schemotech\LAB5
+Z1 w1747233712
+8E:/schemotech/LAB5/mux4to1_8bit.v
+FE:/schemotech/LAB5/mux4to1_8bit.v
+L0 1
+Z2 OV;L;6.5b;42
+r1
+31
+Z3 o-work work -nocovercells -O0
+!s100 YF4;G9YYJ0WQ;d6SVQn[72
+!s85 0
+!s101 -O0
+Z4 !s102 -nocovercells
+vtb_mux4to1_8bit
+!s100 aX[kLT8bT;E9gUmHVDRaQ0
+IgB834ozI<0[Y;<gI4<M9M1
+Vzo7<bA3To:Nk?^VTl<K[g3
+Z5 dE:\schemotech\LAB5
+R1
+8E:/schemotech/LAB5/tb_mux4to1_8bit.v
+FE:/schemotech/LAB5/tb_mux4to1_8bit.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s101 -O0
+R4
+R3
