@@ -1,0 +1,33 @@
+module test_sum8r;
+  wire C1, C2;
+  wire [7:0] Ain, Bin;
+  reg [7:0] Ain_r, Bin_r;
+  reg Ci_r;
+  wire [7:0] res_my, ref_res;
+  sum8r my_block (Ain, Bin, Ci_r, res_my, C1);
+  ref_sum8r ref_block (Ain, Bin, Ci_r, res_ref, C2);
+  
+  initial begin
+    $display("\tTime\tAin\tBin\tCi\tres_my\tC1\tres_ref\tC2");
+    $monitor("%t\t%b\t%b\t%b\t%b\t%b\t%b\t%b",
+             $time, Ain, Bin, Ci_r, res_my, C1, res_ref, C2);
+             #500 $finish;
+           end
+           
+           initial begin
+             Ain_r=8'd5;
+             #50 Ain_r=8'd10;
+             #50 Ain_r=8'd20;
+             #50 Ain_r=8'd33;
+             #50 Ain_r=8'd15;
+           end
+           
+           initial begin
+             Ci_r=1'b0;
+             #200 Ci_r=1'b1;
+           end
+           
+           assign Ain = Ain_r;
+           assign Bin = Bin_r;
+           
+         endmodule

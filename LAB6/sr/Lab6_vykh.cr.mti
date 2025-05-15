@@ -1,0 +1,22 @@
+E:/schemotech/LAB6/sr/test_sum8r.v {1 {vlog -work work -nocovercells E:/schemotech/LAB6/sr/test_sum8r.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module test_sum8r
+
+Top level modules:
+	test_sum8r
+
+} {} {}} E:/schemotech/LAB6/sr/sum_1r.v {1 {vlog -work work -nocovercells E:/schemotech/LAB6/sr/sum_1r.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module sum_1r
+
+Top level modules:
+	sum_1r
+
+} {} {}} E:/schemotech/LAB6/sr/sum8r.v {1 {vlog -work work -nocovercells E:/schemotech/LAB6/sr/sum8r.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module sum8r
+
+Top level modules:
+	sum8r
+
+} {} {}}
